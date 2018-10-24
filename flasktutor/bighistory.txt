@@ -1,0 +1,190 @@
+    1  pwd
+    2  mkdir depdeb
+    3  cd depdeb
+    4  git clone https://github.com/DePaul-deBettencourt/DePaul-deBettencourt.github.io.git
+    5  cd ../.
+    6  git clone https://github.com/DePaul-deBettencourt/DePaul-deBettencourt.github.io.git depdeb
+    7  git clone https://github.com/DePaul-deBettencourt/DePaul-deBettencourt.github.io.git depdeb1
+    8  cd depdeb1
+    9  ls -al
+   10  git add .
+   11  git commit -m "fixes for https"
+   12  git remote -v
+   13  git push origin master
+   14  cd pysrvr
+   15  ls -al
+   16  ps 
+   17  ps -all
+   18  pwd
+   19  ls
+   20  cd pysrvr
+   21  python3.6 responsive.py
+   22  python3.6 wsgi_hello.py
+   23  python --version
+   24  python3 --version
+   25  mkdir twoparts
+   26  cd twoparts
+   27  touch my_hello.py
+   28  python3.6 wsgi_hello.py
+   29  pwd
+   30  python
+   31  python3
+   32  python3.6
+   33  cd simplrepy
+   34  cd simplepy
+   35  python helloworld0.py
+   36  cd ~/.
+   37  pwd
+   38  cd workspace
+   39  ls -al
+   40  cd pysrvr
+   41  ls -al
+   42  python3.6 -m http.server 3000
+   43  cd ../twoparts
+   44  python3.6 wsgi_hello.py
+   45  cd twoparts
+   46  python3.6 wsgi_hello.py
+   47  cd dataparts
+   48  python3.6 wsgi_hello.py
+   49  cd dataparts
+   50  python3.6 wsgi_hello.py
+   51  history
+   52  python3.6 wsgi_hello.py
+   53  pushd dataparts
+   54  python3.6 sqlitezero.py
+   55  python3.6 wsgi_chinook.py
+   56  git add -A
+   57  git commit -m "dropped images"
+   58  git remote -v
+   59  git push origin master
+   60  history
+   61  pushd dataparts
+   62  popd
+   63  pushd dataparts
+   64  ls
+   65  python3.6 sqlitezero.py
+   66  sqlite3
+   67  sqlite
+   68  cd ~
+   69  pwd
+   70  cd workspace
+   71  sudo apt-get install sqlite3
+   72  cd dataparts
+   73  sqlite3
+   74  python3.6 --version
+   75  CD ~/WORKSPACE
+   76  CD ../.
+   77  cd ../.
+   78  git init
+   79  git remote add origin https://github.com/jdebettencourt/myit231stuff.git
+   80  git add .
+   81  git commit -m "first"
+   82  git push origin master
+   83  cd flask1
+   84  python3.6 --version
+   85  pip --version
+   86  pip3 --version
+   87  pip3.6 --version
+   88  python3.6 -m pip --version
+   89  python3.6 --version
+   90  python3.6 setup.py install
+   91  cd ../.
+   92  python3.6 setup.py install
+   93  cd flask1
+   94  python3.6 -m venv venv
+   95  cd ../.
+   96  sudo apt-get install python3-venv
+   97  sudo apt-get install python3.6-venv
+   98  cd flask1
+   99  pip install flask
+  100  python3 -m pip install flask
+  101  flask --version
+  102  cd ../.
+  103  flask --version
+  104  Flask --version
+  105  sudo python3.6 Downloads/get-pip.py
+  106  cd flask1
+  107  python3 -m pip install Flask
+  108  sudo python3 -m pip install Flask
+  109  Flask --version
+  110  flask --version
+  111  sudo export LC_ALL=C.UTF-8
+  112  export LC_ALL=C.UTF-8
+  113  export LANG=C.UTF-8
+  114  flask1 --version
+  115  flask --version
+  116  cd flask1
+  117  touch hello.py
+  118  export FLASK_APP=hello.py
+  119  python3 -m flask run --host=0.0.0.0 --port=3000
+  120  export LC_ALL=C.UTF-8
+  121  export LANG=C.UTF-8
+  122  python3 -m flask run --host=0.0.0.0 --port=3000
+  123  history > history_flask.txt
+  124  touch steps.txt
+  125  mkdir flasktutor
+  126  cd flasktutor
+  127  flask --version
+  128  export LC_ALL=C.UTF-8
+  129  export LANG=C.UTF-8
+  130  export FLASK_ENV=development
+  131  mkdir flaskr
+  132  export FLASK_APP=flaskr
+  133  flask run --host=0.0.0.0 --port=3000
+  134  cd ~/workspace
+  135  cd pipinstall
+  136  pip install flask
+  137  cd ../flasktutor
+  138  flask run --host=0.0.0.0 --port=3000
+  139  ls -al
+  140  ls
+  141  touch flaskr/auth.py
+  142  cd flasktutor
+  143  flask run --host=0.0.0.0 --port=3000
+  144  export LC_ALL=C.UTF-8
+  145  export LANG=C.UTF-8
+  146  flask run --host=0.0.0.0 --port=3000
+  147  export FLASK_APP=flaskr
+  148  export FLASK_ENV=development
+  149  flask run --host=0.0.0.0 --port=3000
+  150  cd flasktutor 
+  151  history
+  152  flask run --host=0.0.0.0 --port=3000
+  153  export LC_ALL=C.UTF-8
+  154  export LANG=C.UTF-8
+  155  flask run --host=0.0.0.0 --port=3000
+  156  export LC_ALL=C.UTF-8
+  157  export LANG=C.UTF-8
+  158  export FLASK_APP=flaskr
+  159  export FLASK_ENV=development
+  160  flask run --host=0.0.0.0 --port=3000
+  161  export LC_ALL=C.UTF-8
+  162  export LANG=C.UTF-8
+  163  export FLASK_APP=flaskr
+  164  export FLASK_ENV=development
+  165  flask run --host=0.0.0.0 --port=3000
+  166  cd flasktutor 
+  167  flask --version
+  168  export LC_ALL=C.UTF-8
+  169  export LANG=C.UTF-8
+  170  export FLASK_APP=flaskr
+  171  export FLASK_ENV=development
+  172  flask run --host=0.0.0.0 --port=3000
+  173  flask run --host=0.0.0.0 --port=5000
+  174  cd flasktutor
+  175  export LC_ALL=C.UTF-8
+  176  export LANG=C.UTF-8
+  177  export FLASK_APP=flaskr
+  178  export FLASK_ENV=development
+  179  flask run --host=0.0.0.0 --port=8000
+  180  pip list
+  181  sudo pip3 install waitress
+  182  waitress-serve --port=3000 --call 'flaskr:create_app'
+  183  flask run --host=0.0.0.0 --port=3000
+  184  sudo pip3 install Flask-SSLify
+  185  flask run --host=0.0.0.0 --port=3000
+  186  print flask.request.environ['wsgi.url_scheme']
+  187  flask run --host=0.0.0.0 --port=3000
+  188  flask run --host=0.0.0.0 --port=8000
+  189  waitress-serve --port=3000 --call 'flaskr:create_app'
+  190  history > bighistory.txt

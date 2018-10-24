@@ -1,0 +1,123 @@
+    1  pwd
+    2  mkdir depdeb
+    3  cd depdeb
+    4  git clone https://github.com/DePaul-deBettencourt/DePaul-deBettencourt.github.io.git
+    5  cd ../.
+    6  git clone https://github.com/DePaul-deBettencourt/DePaul-deBettencourt.github.io.git depdeb
+    7  git clone https://github.com/DePaul-deBettencourt/DePaul-deBettencourt.github.io.git depdeb1
+    8  cd depdeb1
+    9  ls -al
+   10  git add .
+   11  git commit -m "fixes for https"
+   12  git remote -v
+   13  git push origin master
+   14  cd pysrvr
+   15  ls -al
+   16  ps 
+   17  ps -all
+   18  pwd
+   19  ls
+   20  cd pysrvr
+   21  python3.6 responsive.py
+   22  python3.6 wsgi_hello.py
+   23  python --version
+   24  python3 --version
+   25  mkdir twoparts
+   26  cd twoparts
+   27  touch my_hello.py
+   28  python3.6 wsgi_hello.py
+   29  pwd
+   30  python
+   31  python3
+   32  python3.6
+   33  cd simplrepy
+   34  cd simplepy
+   35  python helloworld0.py
+   36  cd ~/.
+   37  pwd
+   38  cd workspace
+   39  ls -al
+   40  cd pysrvr
+   41  ls -al
+   42  python3.6 -m http.server 3000
+   43  cd ../twoparts
+   44  python3.6 wsgi_hello.py
+   45  cd twoparts
+   46  python3.6 wsgi_hello.py
+   47  cd dataparts
+   48  python3.6 wsgi_hello.py
+   49  cd dataparts
+   50  python3.6 wsgi_hello.py
+   51  history
+   52  python3.6 wsgi_hello.py
+   53  pushd dataparts
+   54  python3.6 sqlitezero.py
+   55  python3.6 wsgi_chinook.py
+   56  git add -A
+   57  git commit -m "dropped images"
+   58  git remote -v
+   59  git push origin master
+   60  history
+   61  pushd dataparts
+   62  popd
+   63  pushd dataparts
+   64  ls
+   65  python3.6 sqlitezero.py
+   66  sqlite3
+   67  sqlite
+   68  cd ~
+   69  pwd
+   70  cd workspace
+   71  sudo apt-get install sqlite3
+   72  cd dataparts
+   73  sqlite3
+   74  python3.6 --version
+   75  CD ~/WORKSPACE
+   76  CD ../.
+   77  cd ../.
+   78  git init
+   79  git remote add origin https://github.com/jdebettencourt/myit231stuff.git
+   80  git add .
+   81  git commit -m "first"
+   82  git push origin master
+   83  cd flask1
+   84  python3.6 --version
+   85  pip --version
+   86  pip3 --version
+   87  pip3.6 --version
+   88  python3.6 -m pip --version
+   89  python3.6 --version
+   90  python3.6 setup.py install
+   91  cd ../.
+   92  python3.6 setup.py install
+   93  cd flask1
+   94  python3.6 -m venv venv
+   95  cd ../.
+   96  sudo apt-get install python3-venv
+   97  sudo apt-get install python3.6-venv
+   98  cd flask1
+   99  pip install flask
+  100  python3 -m pip install flask
+  101  flask --version
+  102  cd ../.
+  103  flask --version
+  104  Flask --version
+  105  sudo python3.6 Downloads/get-pip.py
+  106  cd flask1
+  107  python3 -m pip install Flask
+  108  sudo python3 -m pip install Flask
+  109  Flask --version
+  110  flask --version
+  111  sudo export LC_ALL=C.UTF-8
+  112  export LC_ALL=C.UTF-8
+  113  export LANG=C.UTF-8
+  114  flask1 --version
+  115  flask --version
+  116  cd flask1
+  117  touch hello.py
+  118  export FLASK_APP=hello.py
+  119  python3 -m flask run --host=0.0.0.0 --port=3000
+  120  export LC_ALL=C.UTF-8
+  121  export LANG=C.UTF-8
+  122  python3 -m flask run --host=0.0.0.0 --port=3000
+  123  history > history_flask.txt

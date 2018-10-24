@@ -1,0 +1,9 @@
+  201  python3 --version
+  202  pip3 --version
+  203  sudo pip3 install flask
+  204  export LC_ALL=C.UTF-8
+  205  export LANG=C.UTF-8
+  206  export FLASK_APP=hello.py
+  207  export FLASK_ENV=development
+  208  python3 -m flask run --host=0.0.0.0 --port=3000
+  209  history

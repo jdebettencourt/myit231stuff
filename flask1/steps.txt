@@ -1,0 +1,15 @@
+sudo python3 -m pip install Flask
+flask --version
+export LC_ALL=C.UTF-8
+export LANG=C.UTF-8
+flask --version
+mkdir flask1
+cd flask1
+touch hello.py
+   add the example code to this
+export FLASK_APP=hello.py
+python3 -m flask run --host=0.0.0.0 --port=3000
+export LC_ALL=C.UTF-8
+export LANG=C.UTF-8
+python3 -m flask run --host=0.0.0.0 --port=3000
+   go to the https:// port 3000 link 
