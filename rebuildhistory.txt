@@ -1,0 +1,31 @@
+    1  cd ./workspace 
+    2  git clone https://github.com/jdebettencourt/myit231stuff.git .
+    3  cd flasktutor
+    4  python -v
+    5  python --version
+    6  pip --version
+    7  sudo pip install flask
+    8  pip install flask
+    9  export LC_ALL=C.UTF-8
+   10  export LANG=C.UTF-8
+   11  export FLASK_APP=flaskr
+   12  export FLASK_ENV=development
+   13  flask run --host=0.0.0.0 --port=3000
+   14  cd ./workspace/flasktutor 
+   15  cd ./workspace 
+   16  python --version
+   17  pip --version
+   18  flask --version
+   19  virtualenv --version
+   20  cd flasktutor
+   21  export LC_ALL=C.UTF-8
+   22  export LANG=C.UTF-8
+   23  export FLASK_APP=flaskr
+   24  export FLASK_ENV=development
+   25  flask run --host=0.0.0.0 --port=3000
+   26  cd ./workspace/tutunzip 
+   27  ls -al
+   28  unzip tutorial.zip
+   29  unzip myquick*.zip
+   30  history
+   31  history > rebuildhistory.txt
